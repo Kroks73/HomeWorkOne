@@ -9,10 +9,10 @@ public class Wall implements Obstacles {
     @Override
     public boolean doAction (Actions actions) {
         if (actions.jump() >= jumpHeight) {
-            System.out.println("перепрыгнул стену");
+            System.out.println("и перепрыгнул стену");
             return true;
         } else {
-            System.out.println("не смог перепрыгнуть стену");
+            System.out.println("и не смог перепрыгнуть стену");
             return false;
         }
     }

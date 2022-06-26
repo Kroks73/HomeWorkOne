@@ -10,14 +10,13 @@ public class Human implements Actions {
 
     @Override
     public int jump() {
-        System.out.printf("прыгнул на высоту %s метров ", jumpHeight);
+        System.out.printf("человек прыгнул на высоту %s метров ", jumpHeight);
         return jumpHeight;
     }
 
     @Override
     public int run() {
-        System.out.printf("побежал ");
-
+        System.out.printf("человек побежал");
         return maxRunDistance;
     }
 }

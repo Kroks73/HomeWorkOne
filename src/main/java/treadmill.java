@@ -9,10 +9,10 @@ public class treadmill implements Obstacles {
     public boolean doAction(Actions actions) {
 
         if (actions.run() >= maxRunDistance) {
-            System.out.println(" и пробежал дистанцию!");
+            System.out.println("и пробежал дистанцию");
             return true;
         } else {
-            System.out.println(" и не смог пробежать дистанцию!");
+            System.out.println("и не смог пробежать дистанцию");
             return false;
         }
     }

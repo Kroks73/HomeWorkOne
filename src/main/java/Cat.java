@@ -9,7 +9,7 @@ public class Cat implements Actions {
 
     @Override
     public int jump() {
-        System.out.printf("Кот прыгнул на высоту %s метров ", jumpHeight);
+        System.out.printf("Кот прыгнул на высоту %s метров", jumpHeight);
         return jumpHeight;
     }
 

@@ -9,13 +9,13 @@ public class Robot implements Actions {
 
     @Override
     public int jump() {
-        System.out.printf("прыгнул на высоту %s метров ", jumpHeight);
+        System.out.printf("робот прыгнул на высоту %s метров ", jumpHeight);
         return jumpHeight;
     }
 
     @Override
     public int run() {
-        System.out.printf("побежал ");
+        System.out.printf("робот побежал ");
         return maxRunDistance;
     }
 }
